@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+body{
+    background: #222831;
+    color: #EEEEEE;
+}
+
+/* header section start */
+header{
+    border-bottom: 1px solid rgba(238, 238, 238, 0.8);
+}
+.navbar{
+    border-bottom: 1px solid rgba(238, 238, 238, 0.1);
+    padding: 15px 80px;
+}
+.navbar-brand{
+    font-family: "Oswald", serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+.navbar-nav .nav-item{
+    list-style: none;
+    padding-left: 20px;
+}
+.navbar-nav .nav-item .nav-link{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+/* banner section start */
+#banner{
+    padding: 80px 90px;
+}
+.banner-content h1{
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.banner-content span{
+    color: #00ADB5;
+}
+.banner-content .btn-1{
+    padding: 6px 20px;
+    border: none;
+    outline: none;
+    background: #00ADB5;
+    color: #EEEEEE;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px;
+}
+.banner-content .btn-2{
+    padding: 6px 20px;
+    border: none;
+    outline: none;
+    background: rgba(57, 62, 70, 0.75);
+    color: #EEEEEE;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px;
+}
+
+.banner-img img{
+    width: 350px;
+    height: 450px;
+}
+
+#banner .down-arrow{
+    width: 60px;
+    height: 60px;
+    background: rgba(57, 62, 70, 0.75);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 230px;
+    margin-top: 70px;
+}
