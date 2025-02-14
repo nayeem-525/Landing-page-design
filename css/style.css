@@ -175,3 +175,43 @@ header{
 .work-img img{
     width: 270px;
 }
+
+/* contact section start */
+#contact{
+    padding: 150px 90px;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.1);
+}
+.contact-item span{
+    color: #00ADB5;
+}
+.contact-item img{
+    width: 250px;
+    margin-left: 100px;
+}
+
+.contact-form label{
+    font-size: 15px;
+    font-weight: 600;
+    color: #EEEEEE;
+}
+.contact-form input, textarea{
+    margin-top: 6px;
+    padding: 12px;
+    background: rgba(57, 62, 70, 0.5);
+    color: #EEEEEE;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.cont-btn{
+    padding: 8px 25px;
+    border: none;
+    outline: none;
+    background: #00ADB5;
+    color: #EEEEEE;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px;
+    margin-top: 20px;
+}
