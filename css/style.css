@@ -9,13 +9,19 @@ body{
     color: #EEEEEE;
 }
 
+h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #EEEEEE;
+}
+
 /* header section start */
 header{
     border-bottom: 1px solid rgba(238, 238, 238, 0.8);
 }
 .navbar{
     border-bottom: 1px solid rgba(238, 238, 238, 0.1);
-    padding: 15px 80px;
+    padding: 15px 60px 15px 80px;
 }
 .navbar-brand{
     font-family: "Oswald", serif;
@@ -33,7 +39,7 @@ header{
 
 /* banner section start */
 #banner{
-    padding: 80px 90px;
+    padding: 100px 40px 50px 90px;
 }
 .banner-content h1{
     font-size: 80px;
@@ -79,4 +85,36 @@ header{
     align-items: center;
     margin-left: 230px;
     margin-top: 70px;
+    cursor: pointer;
+}
+
+/* about me section */
+#about{
+    padding: 120px 40px 100px 90px;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.1);
+}
+.about-content h2 span{
+    color: #00ADB5;
+}
+.about-content p{
+    width: 350px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #EEEEEE75;
+}
+.about-content p span{
+    font-size: 16px;
+    color: #EEEEEE;
+}
+.about-images{
+    position: relative;
+}
+.about-images .back-img{
+    width: 600px;
+}
+.about-images .font-img{
+    width: 380px;
+    position: absolute;
+    bottom: 60px;
+    left: 110px;
 }
