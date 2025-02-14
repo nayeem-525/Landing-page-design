@@ -118,3 +118,60 @@ header{
     bottom: 60px;
     left: 110px;
 }
+
+/* works section start */
+#works{
+    position: relative;
+    margin-top: 100px;
+}
+#works .background-img img{
+    width: 100%;
+    height: auto;
+}
+.works-section{
+    padding: 120px 40px 100px 90px;
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.works-section h2 span{
+    color: #00ADB5;
+}
+.all-btn{
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+.all-btn .style-1{
+    padding: 6px 20px;
+    border: none;
+    outline: none;
+    background: #00ADB5;
+    color: #EEEEEE;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px;
+}
+.all-btn .style-2{
+    padding: 6px 20px;
+    border: none;
+    outline: none;
+    background: rgba(57, 62, 70, 0.75);
+    color: #EEEEEE;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px;
+}
+.work-img{
+    background: rgba(57, 62, 70, 0.75);
+    width: 340px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.work-img img{
+    width: 270px;
+}
