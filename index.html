@@ -26,23 +26,23 @@
 </head>
 <body>
     <!-- header section start -->
-    <header>
+    <header id="home">
         <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">SaulDesign</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon fs-6"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
+                    <a class="nav-link" href="#about">About Me</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -52,18 +52,20 @@
         <!-- banner section start -->
         <div id="banner">
             <div class="row d-flex align-items-center">
-                <div class="col-lg-7">
+                <div class="col-md-7">
                     <div class="banner-content">
                         <h1>Creative UI <span>Designer</span></h1>
-                        <button class="btn-1 me-3 mt-4" type="button">Hire me</button>
-                        <button class="btn-2 mt-4">
+                        <div class="buttons">
+                          <button class="btn-1 me-3 mt-4" type="button">Hire me</button>
+                          <button class="btn-2 mt-4">
                             Download CV
                             <i class="fa-solid fa-arrow-down ms-2"></i>
-                        </button>
+                          </button>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-lg-5">
+                <div class="col-md-5">
                     <div class="banner-img">
                         <img src="assets/banner.png" alt="banner image">
                     </div>
@@ -79,14 +81,14 @@
     <!-- about me section start-->
     <section id="about">
       <div class="row">
-        <div class="col-lg-5">
+        <div class="col-md-5">
           <div class="about-content">
             <h2>About <span>me</span></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quo fugiat nihil voluptatibus neque exercitationem dolorum quisquam dolore, rerum quaerat eveniet ratione nam voluptatum sed! Maiores eaque assumenda fugit nihil exercitationem soluta dolor temporibus neque..... <span>Read more</span></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quo fugiat nihil voluptatibus neque exercitationem dolorum quisquam dolore, rerum quaerat eveniet ratione nam voluptatum sed! Maiores eaque assumenda fugit nihil exercitationem soluta temporibus neque Lorem ipsum dolor sit amet consectetur adipisicing..... <span>Read more</span></p>
           </div>
         </div>
 
-        <div class="col-lg-7">
+        <div class="col-md-7">
           <div class="about-images">
             <img class="back-img" src="assets/background1.png" alt="about img - 1">
             <img class="font-img" src="assets/img1.png" alt="about img - 2">
@@ -111,19 +113,19 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="work-img">
               <img src="assets/work-1.png" alt="work img -1">
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="work-img">
               <img src="assets/work-2.png" alt="work img -2">
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="work-img">
               <img src="assets/work-3.png" alt="work img -3">
             </div>
@@ -135,23 +137,23 @@
     <!-- contact section start -->
     <section id="contact">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-md-6">
           <div class="contact-item pe-5">
             <h2>Got a project in <span>mind?</span></h2>
             <img src="assets/img2.png" alt="contact img">
           </div>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-md-6">
           <div class="contact-form">
             <form>
               <div class="row mb-3">
-                <div class="col-lg-6">
+                <div class="col-md-6">
                   <label for="user">Your name</label>
                   <input class="w-100" type="text" id="user" name="user" placeholder="Name">
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-md-6">
                   <label for="email">Your email</label>
                   <input class="w-100" type="email" id="email" name="email" placeholder="Email">
                 </div>
@@ -169,6 +171,43 @@
         </div>
       </div>
     </section>
+
+    <!-- footer section start -->
+    <footer>
+      <div class="footer-contact d-flex justify-content-center align-items-center">
+        <a href="#home" class="d-flex mx-4">
+          <i class="fa-solid fa-house"></i>
+          <p class="ms-3">Home</p>
+        </a>
+        <a href="#about" class="d-flex mx-4">
+          <i class="fa-solid fa-user"></i>
+          <p class="ms-3">About</p>
+        </a>
+        <a href="#contact" class="d-flex mx-4">
+          <i class="fa-solid fa-phone"></i>
+          <p class="ms-3">Contact</p>
+        </a>
+      </div>
+
+      <div class="social-media d-flex justify-content-center">
+        <a href="#">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </div>
+
+      <div>
+        <p style="text-align: right; margin-top: 70px; font-size: 14px;">Term of Service - Privacy Policy</p>
+      </div>
+    </footer>
   
 
 
