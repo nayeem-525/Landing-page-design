@@ -1,0 +1,861 @@
+@media(max-width: 400px) {
+    h2{
+        font-size: 30px;
+        text-align: center;
+        line-height: 80px;
+    }
+    /* header section start */
+    .navbar{
+        padding: 15px;
+    }
+    .navbar-brand{
+        font-size: 16px;
+    }
+    .navbar-nav{
+        margin-bottom: 10px;
+    }
+    .navbar-nav .nav-item{
+        padding-left: 0 !important;
+        margin-top: 15px;
+    }
+    .navbar-nav .nav-item .nav-link{
+        font-size: 14px;
+    }
+
+    /* banner section start */
+    #banner{
+        padding: 80px 0 60px 0;
+    }
+    .banner-content h1{
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 80px;
+        padding: 0 10px;
+    }
+    .banner-content .buttons{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .banner-content .btn-1{
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 35px;
+    }
+    .banner-content .btn-2{
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 35px;
+    }
+    .banner-img img{
+        width: 250px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+
+    #banner .down-arrow{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* about me section */
+    #about{
+        padding: 70px 0;
+    }
+    .about-content p{
+        width: 300px;
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+        margin: 20px auto 0 auto;
+    }
+    .about-content p span{
+        font-size: 14px;
+    }
+
+    .about-images{
+        display: flex;
+        justify-content: center;
+    }
+    .about-images .back-img{
+        position: relative;
+        width: 330px;
+        height: 330px;
+        margin-top: 60px;
+    }
+    .about-images .font-img{
+        width: 200px;
+        position: absolute;
+        top: 130px;
+        left: 70px;
+    }
+
+    /* works section start */
+    #works{
+        position: relative;
+        margin-top: 80px;
+    }
+    #works .background-img img{
+        width: 100%;
+        height: 1400px;
+    }
+    .works-section{
+        padding: 0;
+        position: absolute;
+        top: 70px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 30px;
+    }
+    .works-section h2{
+        padding: 0 50px;
+        line-height: 50px;
+    }
+    .all-btn{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        margin: 30px auto 80px auto;
+    }
+    .all-btn .style-1{
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 35px;
+    }
+    .all-btn .style-2{
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 35px;
+        margin-top: 25px;
+    }
+
+    .works-section .row{
+        margin-top: -20px;
+    }
+    .work-img{
+        width: 300px;
+        height: 230px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .work-img img{
+        width: 230px;
+    }
+
+    /* contact section start */
+    #contact{
+        padding: 70px 0;
+        display: flex;
+        justify-content: center;
+    }
+    .contact-item{
+        padding-right: 0 !important;
+    }
+    .contact-item h2{
+        line-height: 50px;
+    }
+    .contact-item img{
+        width: 220px;
+        display: flex;
+        justify-content: center;
+        margin: 50px auto;
+    }
+
+    .contact-form{
+        padding: 0 10px;
+    }
+    .contact-form .row{
+        margin-bottom: 0 !important;
+    }
+    .contact-form label{
+        font-size: 13px;
+        font-weight: 600;
+        color: #EEEEEE;
+        margin-top: 15px;
+    }
+    .contact-form input, textarea{
+        font-size: 13px;
+    }
+
+    /* footer section start */
+    footer{
+        padding: 80px 0 30px 0;
+    }
+    .footer-contact{
+        gap: 35px;
+    }
+    .footer-contact p{
+        font-size: 14px;
+        margin-left: 0 !important;
+    }
+    .footer-contact a{
+        margin: 0 !important;
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+    }
+    .footer-contact i{
+        font-size: 15px;
+    }
+
+    .social-media{
+        margin-top: 10px;
+    }
+    .social-media a{
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+        margin: 8px;
+        font-size: 15px;
+    }
+    footer p{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 400px) and (max-width: 576px) {
+    h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    /* header section start */
+    .navbar{
+        padding: 16px;
+    }
+    .navbar-brand{
+        font-size: 20px;
+    }
+    .navbar-nav{
+        margin-bottom: 10px;
+    }
+    .navbar-nav .nav-item{
+        padding-left: 0 !important;
+        margin-top: 16px;
+    }
+    .navbar-nav .nav-item .nav-link{
+        font-size: 15px;
+    }
+
+    /* banner section start */
+    .banner-content h1{
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 80px;
+        padding: 0 10px;
+    }
+    .banner-content .buttons{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .banner-content .btn-1{
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 35px;
+    }
+    .banner-content .btn-2{
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 35px;
+    }
+    .banner-img img{
+        width: 280px;
+        height: 320px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+
+    #banner .down-arrow{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* about me section */
+    #about{
+        padding: 70px 0;
+    }
+    .about-content p{
+        width: 300px;
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+        margin: 20px auto 0 auto;
+    }
+    .about-content p span{
+        font-size: 14px;
+    }
+
+    .about-images{
+        display: flex;
+        justify-content: center;
+    }
+    .about-images .back-img{
+        position: relative;
+        width: 380px;
+        height: 320px;
+        margin-top: 60px;
+    }
+    .about-images .font-img{
+        width: 220px;
+        position: absolute;
+        top: 130px;
+        left: 120px;
+    }
+
+    /* works section start */
+    #works{
+        position: relative;
+        margin-top: 80px;
+    }
+    #works .background-img img{
+        width: 100%;
+        height: 1400px;
+    }
+    .works-section{
+        padding: 0;
+        position: absolute;
+        top: 70px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 30px;
+    }
+    .works-section h2{
+        padding: 0 50px;
+        line-height: 50px;
+    }
+    .all-btn{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        margin: 30px auto 80px auto;
+    }
+    .all-btn .style-1{
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 35px;
+    }
+    .all-btn .style-2{
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 35px;
+        margin-top: 25px;
+    }
+
+    .works-section .row{
+        margin-top: -20px;
+    }
+    .work-img{
+        width: 300px;
+        height: 230px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .work-img img{
+        width: 230px;
+    }
+
+    /* contact section start */
+    #contact{
+        padding: 70px 0;
+        display: flex;
+        justify-content: center;
+    }
+    .contact-item{
+        padding-right: 0 !important;
+    }
+    .contact-item h2{
+        line-height: 50px;
+    }
+    .contact-item img{
+        width: 220px;
+        display: flex;
+        justify-content: center;
+        margin: 50px auto;
+    }
+
+    .contact-form{
+        padding: 0 10px;
+    }
+    .contact-form .row{
+        margin-bottom: 0 !important;
+    }
+    .contact-form label{
+        font-size: 13px;
+        font-weight: 600;
+        color: #EEEEEE;
+        margin-top: 15px;
+    }
+    .contact-form input, textarea{
+        font-size: 13px;
+    }
+
+    /* footer section start */
+    footer{
+        padding: 80px 0 30px 0;
+    }
+    .footer-contact{
+        gap: 35px;
+    }
+    .footer-contact p{
+        font-size: 14px;
+        margin-left: 0 !important;
+    }
+    .footer-contact a{
+        margin: 0 !important;
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+    }
+    .footer-contact i{
+        font-size: 15px;
+    }
+
+    .social-media{
+        margin-top: 10px;
+    }
+    .social-media a{
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+        margin: 8px;
+        font-size: 15px;
+    }
+    footer p{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+    h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    /* header section start */
+    .navbar{
+        padding: 16px;
+    }
+    .navbar-brand{
+        font-size: 20px;
+    }
+    .navbar-nav{
+        margin-bottom: 10px;
+    }
+    .navbar-nav .nav-item{
+        padding-left: 0 !important;
+        margin-top: 16px;
+    }
+    .navbar-nav .nav-item .nav-link{
+        font-size: 15px;
+    }
+
+    /* banner section start */
+    .banner-content h1{
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 80px;
+        padding: 0 10px;
+    }
+    .banner-content .buttons{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .banner-content .btn-1{
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 35px;
+    }
+    .banner-content .btn-2{
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 35px;
+    }
+    .banner-img img{
+        width: 280px;
+        height: 320px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+
+    #banner .down-arrow{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* about me section */
+    #about{
+        padding: 70px 0;
+    }
+    .about-content p{
+        width: 300px;
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+        margin: 20px auto 0 auto;
+    }
+    .about-content p span{
+        font-size: 14px;
+    }
+
+    .about-images{
+        display: flex;
+        justify-content: center;
+    }
+    .about-images .back-img{
+        position: relative;
+        width: 450px;
+        height: 350px;
+        margin-top: 60px;
+    }
+    .about-images .font-img{
+        width: 220px;
+        position: absolute;
+        top: 130px;
+        left: 200px;
+    }
+
+    /* works section start */
+    #works{
+        position: relative;
+        margin-top: 80px;
+    }
+    #works .background-img img{
+        width: 100%;
+        height: 1400px;
+    }
+    .works-section{
+        padding: 0;
+        position: absolute;
+        top: 70px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 30px;
+    }
+    .works-section h2{
+        padding: 0 50px;
+        line-height: 50px;
+    }
+    .all-btn{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        margin: 30px auto 80px auto;
+    }
+    .all-btn .style-1{
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 35px;
+    }
+    .all-btn .style-2{
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 35px;
+        margin-top: 25px;
+    }
+
+    .works-section .row{
+        margin-top: -20px;
+    }
+    .work-img{
+        width: 300px;
+        height: 230px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .work-img img{
+        width: 230px;
+    }
+
+    /* contact section start */
+    #contact{
+        padding: 70px 0;
+        display: flex;
+        justify-content: center;
+    }
+    .contact-item{
+        padding-right: 0 !important;
+    }
+    .contact-item h2{
+        line-height: 50px;
+    }
+    .contact-item img{
+        width: 220px;
+        display: flex;
+        justify-content: center;
+        margin: 50px auto;
+    }
+
+    .contact-form{
+        padding: 0 10px;
+    }
+    .contact-form .row{
+        margin-bottom: 0 !important;
+    }
+    .contact-form label{
+        font-size: 13px;
+        font-weight: 600;
+        color: #EEEEEE;
+        margin-top: 15px;
+    }
+    .contact-form input, textarea{
+        font-size: 13px;
+    }
+
+    /* footer section start */
+    footer{
+        padding: 80px 0 30px 0;
+    }
+    .footer-contact{
+        gap: 35px;
+    }
+    .footer-contact p{
+        font-size: 14px;
+        margin-left: 0 !important;
+    }
+    .footer-contact a{
+        margin: 0 !important;
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+    }
+    .footer-contact i{
+        font-size: 15px;
+    }
+
+    .social-media{
+        margin-top: 10px;
+    }
+    .social-media a{
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+        margin: 8px;
+        font-size: 15px;
+    }
+    footer p{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    h2{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    /* header section start */
+    .navbar{
+        padding: 12px 15px;
+    }
+    .navbar-brand{
+        font-size: 20px;
+    }
+    .navbar-nav{
+        margin-bottom: 10px;
+    }
+    .navbar-nav .nav-item{
+        padding-left: 0 !important;
+        margin-top: 15px;
+    }
+    .navbar-nav .nav-item .nav-link{
+        font-size: 14px;
+    }
+
+    /* banner section start */
+    #banner{
+        padding: 100px 40px 50px 60px;
+    }
+    .banner-content h1{
+        font-size: 60px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .banner-img img{
+        width: 300px;
+        height: 350px;
+    }
+
+    /* about me section */
+    #about{
+        padding: 120px 40px 100px 60px;
+    }
+    .about-content p{
+        width: 305px;
+        font-size: 13px;
+    }
+    .about-content p span{
+        font-size: 14px;
+    }
+
+    .about-images{
+        position: relative;
+    }
+    .about-images .back-img{
+        width: 460px;
+    }
+    .about-images .font-img{
+        width: 300px;
+        position: absolute;
+        bottom: 50px;
+        left: 80px;
+    }
+
+    /* works section start */
+    #works{
+        position: relative;
+    }
+
+    .works-section{
+        padding: 120px 40px 100px 60px;
+        position: absolute;
+        top: 40px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .work-img{
+        background: rgba(57, 62, 70, 0.75);
+        width: 280px;
+        height: 220px;
+    }
+    .work-img img{
+        width: 220px;
+    }
+
+    /* contact section start */
+    #contact{
+        padding: 120px 40px 100px 60px;
+    }
+    .contact-item img{
+        width: 240px;
+        margin-left: 70px;
+    }
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    h2{
+        font-size: 50px;
+        font-weight: 600;
+    }
+    /* header section start */
+    .navbar{
+        padding: 12px 50px;
+    }
+    .navbar-brand{
+        font-size: 20px;
+    }
+    .navbar-nav .nav-item .nav-link{
+        font-size: 14px;
+    }
+
+    /* banner section start */
+    #banner{
+        padding: 100px 20px 50px 60px;
+    }
+    .banner-content h1{
+        font-size: 60px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .banner-img img{
+        width: 300px;
+        height: 350px;
+    }
+
+    /* about me section */
+    #about{
+        padding: 120px 20px 100px 60px;
+    }
+    .about-content p{
+        width: 340px;
+        font-size: 13px;
+    }
+    .about-content p span{
+        font-size: 14px;
+    }
+
+    .about-images{
+        position: relative;
+    }
+    .about-images .back-img{
+        width: 460px;
+    }
+    .about-images .font-img{
+        width: 300px;
+        position: absolute;
+        bottom: 50px;
+        left: 80px;
+    }
+
+    /* works section start */
+    #works{
+        position: relative;
+    }
+
+    .works-section{
+        padding: 120px 40px 100px 60px;
+        position: absolute;
+        top: 40px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .work-img{
+        background: rgba(57, 62, 70, 0.75);
+        width: 280px;
+        height: 220px;
+    }
+    .work-img img{
+        width: 220px;
+    }
+
+    /* contact section start */
+    #contact{
+        padding: 120px 40px 100px 60px;
+    }
+    .contact-item img{
+        width: 240px;
+        margin-left: 145px;
+    }
+}
